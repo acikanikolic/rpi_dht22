@@ -1,0 +1,6 @@
+Adafruit-DHT==1.4.0
+asgiref==3.7.2
+colorzero==2.0
+Django==4.2.7
+gpiozero==2.0
+sqlparse==0.4.4

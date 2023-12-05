@@ -1,0 +1,33 @@
+<html>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+  </style>
+  <body>
+    <script>
+      window.setTimeout(function() {
+        location.href = 'http://192.168.0.14:8000'; }, 1000);
+    </script>
+
+    <table style="width:50%">
+      <tr style="width:500px height=200px">
+        <th>Senzor</th>
+        <th>Vrednost</th>
+      </tr>
+
+      <tr>
+        <td><h1>Temperatura</h1></td>
+        <td><h1>{{Temperatura}} °C</h1></td>
+      </tr>
+
+      <tr>
+        <td><h1>Vlaznost</h1></td>
+        <td><h1>{{Vlaznost}} %</h1></td>
+      </tr>
+    </table>
+
+    <br>
+    <p>Aleksandar Nikolic</p>
+  </body>
+</html>
